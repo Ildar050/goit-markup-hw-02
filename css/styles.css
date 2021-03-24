@@ -26,6 +26,21 @@ body {
   letter-spacing: 0.03em;
 }
 
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+ outline: 2px solid tomato;
+}
+
+/* page header */
+
+.page-header {
+background-color: #ccc;
+
+}
+
 /* logo */
 
 .contacts .link:hover,
@@ -115,13 +130,20 @@ body {
 
 /* button */
 .btn-primary {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+  border: 1px solid var(--accent-color);
+
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
-}
+  text-align: center;
+  
 
 /* details */
 .details {
